@@ -1,0 +1,63 @@
+Conditional statements in JavaScript allow you to execute specific blocks of code based on conditions. If the condition meets then a particular block of action will be executed otherwise it will execute another block of action that satisfies that particular condition.
+
+There are several methods that can be used to perform Conditional Statements in JavaScript
+1.if statement.
+2.else if statement.
+3. if else ladder statement.
+4.switch statement.
+5.Ternary statement.
+****
+syntax-
+if ( condition ) {
+    // If the condition is met, 
+    //code  will get executed.
+}
+
+example code-
+let num = 20; 
+  
+if (num % 2 === 0) { 
+    console.log("Given number is even number."); 
+} 
+  
+if (num % 2 !== 0) { 
+    console.log("Given number is odd number."); 
+};
+
+***example code for if-else statement
+
+let age = 25; 
+  
+if (age >= 18) { 
+    console.log("You are eligible of driving licence") 
+} else { 
+    console.log("You are not eligible for driving licence") 
+};
+
+****example code for switch statement
+
+switch (expression) {
+    case value1:
+        statement1;
+        break;
+    case value2:
+        statement2;
+        break;
+    . . .
+    case valueN:
+        statementN;
+        break;
+    default:
+        statementDefault;
+};
+
+
+**example code for Ternary statement
+
+let age = 21; 
+  
+const result = 
+    (age >= 18) ? "You are eligible to vote."
+        : "You are not eligible to vote."; 
+  
+console.log(result);
